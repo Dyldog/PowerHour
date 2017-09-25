@@ -28,7 +28,6 @@
 		FC82DFF01F76426E001E401F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC82DFF21F76426E001E401F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC82DFF81F7642C4001E401F /* PowerHourGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerHourGame.swift; sourceTree = "<group>"; };
-		FC82DFFA1F7731BD001E401F /* PLAN.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PLAN.md; sourceTree = "<group>"; };
 		FCF7F6AB1F790CDF00E38A48 /* Drink.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Drink.m4a; sourceTree = "<group>"; };
 		FCF7F6AD1F7924BA00E38A48 /* PowerHourGameSoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerHourGameSoundPlayer.swift; sourceTree = "<group>"; };
 		FCF7F6B11F79328600E38A48 /* PowerHourGameNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerHourGameNotificationManager.swift; sourceTree = "<group>"; };
@@ -65,20 +64,35 @@
 		FC82DFE51F76426E001E401F /* PowerHour2 */ = {
 			isa = PBXGroup;
 			children = (
+				FCF7F6B51F79490900E38A48 /* Classes */,
+				FC82DFEA1F76426E001E401F /* Main.storyboard */,
+				FC82DFED1F76426E001E401F /* Assets.xcassets */,
+				FC82DFEF1F76426E001E401F /* LaunchScreen.storyboard */,
+				FC82DFF21F76426E001E401F /* Info.plist */,
+				FCF7F6B61F79494C00E38A48 /* Resources */,
+			);
+			path = PowerHour2;
+			sourceTree = "<group>";
+		};
+		FCF7F6B51F79490900E38A48 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
 				FC82DFE61F76426E001E401F /* AppDelegate.swift */,
 				FC82DFE81F76426E001E401F /* ViewController.swift */,
 				FCF7F6AD1F7924BA00E38A48 /* PowerHourGameSoundPlayer.swift */,
 				FC82DFF81F7642C4001E401F /* PowerHourGame.swift */,
 				FCF7F6B11F79328600E38A48 /* PowerHourGameNotificationManager.swift */,
 				FCF7F6B31F7939D400E38A48 /* UIView+Extensions.swift */,
-				FC82DFEA1F76426E001E401F /* Main.storyboard */,
-				FC82DFED1F76426E001E401F /* Assets.xcassets */,
-				FC82DFEF1F76426E001E401F /* LaunchScreen.storyboard */,
-				FC82DFF21F76426E001E401F /* Info.plist */,
-				FC82DFFA1F7731BD001E401F /* PLAN.md */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FCF7F6B61F79494C00E38A48 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				FCF7F6AB1F790CDF00E38A48 /* Drink.m4a */,
 			);
-			path = PowerHour2;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

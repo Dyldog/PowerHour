@@ -17,3 +17,5 @@ One shot of beer per minute, for sixty minutes.
 
 - Other game modes (Centurion, etc.)
 - Reminder is music instead of sound
+-Points system
+- Tick off people's names as they finish their beers
