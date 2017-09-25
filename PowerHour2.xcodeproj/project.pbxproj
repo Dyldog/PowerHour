@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC82DFE71F76426E001E401F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC82DFE61F76426E001E401F /* AppDelegate.swift */; };
+		FC82DFE91F76426E001E401F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC82DFE81F76426E001E401F /* ViewController.swift */; };
+		FC82DFEC1F76426E001E401F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC82DFEA1F76426E001E401F /* Main.storyboard */; };
+		FC82DFEE1F76426E001E401F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC82DFED1F76426E001E401F /* Assets.xcassets */; };
+		FC82DFF11F76426E001E401F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC82DFEF1F76426E001E401F /* LaunchScreen.storyboard */; };
+		FC82DFF91F7642C4001E401F /* PowerHourGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC82DFF81F7642C4001E401F /* PowerHourGame.swift */; };
+		FCF7F6AC1F790CE500E38A48 /* Drink.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FCF7F6AB1F790CDF00E38A48 /* Drink.m4a */; };
+		FCF7F6AE1F7924BA00E38A48 /* PowerHourGameSoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF7F6AD1F7924BA00E38A48 /* PowerHourGameSoundPlayer.swift */; };
+		FCF7F6B21F79328600E38A48 /* PowerHourGameNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF7F6B11F79328600E38A48 /* PowerHourGameNotificationManager.swift */; };
+		FCF7F6B41F7939D400E38A48 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF7F6B31F7939D400E38A48 /* UIView+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC82DFE31F76426E001E401F /* PowerHour2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerHour2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC82DFE61F76426E001E401F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC82DFE81F76426E001E401F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC82DFEB1F76426E001E401F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC82DFED1F76426E001E401F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC82DFF01F76426E001E401F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC82DFF21F76426E001E401F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC82DFF81F7642C4001E401F /* PowerHourGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerHourGame.swift; sourceTree = "<group>"; };
+		FC82DFFA1F7731BD001E401F /* PLAN.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PLAN.md; sourceTree = "<group>"; };
+		FCF7F6AB1F790CDF00E38A48 /* Drink.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Drink.m4a; sourceTree = "<group>"; };
+		FCF7F6AD1F7924BA00E38A48 /* PowerHourGameSoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerHourGameSoundPlayer.swift; sourceTree = "<group>"; };
+		FCF7F6B11F79328600E38A48 /* PowerHourGameNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerHourGameNotificationManager.swift; sourceTree = "<group>"; };
+		FCF7F6B31F7939D400E38A48 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC82DFE01F76426E001E401F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC82DFDA1F76426E001E401F = {
+			isa = PBXGroup;
+			children = (
+				FC82DFE51F76426E001E401F /* PowerHour2 */,
+				FC82DFE41F76426E001E401F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC82DFE41F76426E001E401F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC82DFE31F76426E001E401F /* PowerHour2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC82DFE51F76426E001E401F /* PowerHour2 */ = {
+			isa = PBXGroup;
+			children = (
+				FC82DFE61F76426E001E401F /* AppDelegate.swift */,
+				FC82DFE81F76426E001E401F /* ViewController.swift */,
+				FCF7F6AD1F7924BA00E38A48 /* PowerHourGameSoundPlayer.swift */,
+				FC82DFF81F7642C4001E401F /* PowerHourGame.swift */,
+				FCF7F6B11F79328600E38A48 /* PowerHourGameNotificationManager.swift */,
+				FCF7F6B31F7939D400E38A48 /* UIView+Extensions.swift */,
+				FC82DFEA1F76426E001E401F /* Main.storyboard */,
+				FC82DFED1F76426E001E401F /* Assets.xcassets */,
+				FC82DFEF1F76426E001E401F /* LaunchScreen.storyboard */,
+				FC82DFF21F76426E001E401F /* Info.plist */,
+				FC82DFFA1F7731BD001E401F /* PLAN.md */,
+				FCF7F6AB1F790CDF00E38A48 /* Drink.m4a */,
+			);
+			path = PowerHour2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC82DFE21F76426E001E401F /* PowerHour2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC82DFF51F76426E001E401F /* Build configuration list for PBXNativeTarget "PowerHour2" */;
+			buildPhases = (
+				FC82DFDF1F76426E001E401F /* Sources */,
+				FC82DFE01F76426E001E401F /* Frameworks */,
+				FC82DFE11F76426E001E401F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PowerHour2;
+			productName = PowerHour2;
+			productReference = FC82DFE31F76426E001E401F /* PowerHour2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC82DFDB1F76426E001E401F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Dylan Elliott";
+				TargetAttributes = {
+					FC82DFE21F76426E001E401F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FC82DFDE1F76426E001E401F /* Build configuration list for PBXProject "PowerHour2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC82DFDA1F76426E001E401F;
+			productRefGroup = FC82DFE41F76426E001E401F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC82DFE21F76426E001E401F /* PowerHour2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC82DFE11F76426E001E401F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC82DFF11F76426E001E401F /* LaunchScreen.storyboard in Resources */,
+				FCF7F6AC1F790CE500E38A48 /* Drink.m4a in Resources */,
+				FC82DFEE1F76426E001E401F /* Assets.xcassets in Resources */,
+				FC82DFEC1F76426E001E401F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC82DFDF1F76426E001E401F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF7F6B41F7939D400E38A48 /* UIView+Extensions.swift in Sources */,
+				FCF7F6AE1F7924BA00E38A48 /* PowerHourGameSoundPlayer.swift in Sources */,
+				FC82DFE91F76426E001E401F /* ViewController.swift in Sources */,
+				FC82DFF91F7642C4001E401F /* PowerHourGame.swift in Sources */,
+				FC82DFE71F76426E001E401F /* AppDelegate.swift in Sources */,
+				FCF7F6B21F79328600E38A48 /* PowerHourGameNotificationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC82DFEA1F76426E001E401F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC82DFEB1F76426E001E401F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC82DFEF1F76426E001E401F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC82DFF01F76426E001E401F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC82DFF31F76426E001E401F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC82DFF41F76426E001E401F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC82DFF61F76426E001E401F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CW3378X23;
+				INFOPLIST_FILE = PowerHour2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylanelliott.PowerHour2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC82DFF71F76426E001E401F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CW3378X23;
+				INFOPLIST_FILE = PowerHour2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylanelliott.PowerHour2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC82DFDE1F76426E001E401F /* Build configuration list for PBXProject "PowerHour2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC82DFF31F76426E001E401F /* Debug */,
+				FC82DFF41F76426E001E401F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC82DFF51F76426E001E401F /* Build configuration list for PBXNativeTarget "PowerHour2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC82DFF61F76426E001E401F /* Debug */,
+				FC82DFF71F76426E001E401F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC82DFDB1F76426E001E401F /* Project object */;
+}
